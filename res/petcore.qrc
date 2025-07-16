@@ -1,0 +1,63 @@
+<RCC>
+    <qresource prefix="/templates">
+        <file>templates/petcore.sqt</file>
+        <file>templates/petcore.xml</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file alias="append_client">images/append_client.png</file>
+        <file alias="append_pet">images/append_pet.png</file>
+        <file alias="append_reminder">images/append_reminder.png</file>
+        <file alias="append_visit">images/append_vivit.png</file>
+        <file alias="cancel">images/cancel.png</file>
+        <file alias="clera_clients">images/clear_cliens.png</file>
+        <file alias="clear_dialog">images/clear_dialog.png</file>
+        <file alias="clear_pets">images/clear_pets.png</file>
+        <file alias="clear_visits">images/clear_visits.png</file>
+        <file alias="clients">images/clients.png</file>
+        <file alias="edit_client">images/edit_client.png</file>
+        <file alias="edit_pet">images/edit_pet.png</file>
+        <file alias="edit_visit">images/edit_visit.png</file>
+        <file alias="exit">images/exit.png</file>
+        <file alias="export_csv">images/export_csv.png</file>
+        <file alias="export_xml">images/export_xml.png</file>
+        <file alias="eye_off">images/eye_off.png</file>
+        <file alias="eye_on">images/eye_on.png</file>
+        <file alias="font">images/font.png</file>
+        <file alias="llm_vet">images/llm_vet.png</file>
+        <file alias="ok">images/ok.png</file>
+        <file alias="petcore">images/petcore.png</file>
+        <file alias="petcore_640_360">images/petcore_640_360.png</file>
+        <file alias="pets">images/pets.png</file>
+        <file alias="qt">images/qt.png</file>
+        <file alias="question">images/question.png</file>
+        <file alias="remove_client">images/remove_client.png</file>
+        <file alias="remove_pet">images/remove_pet.png</file>
+        <file alias="remove_reminder">images/remove_reminder.png</file>
+        <file alias="save_dialog">images/save_dialog.png</file>
+        <file alias="search">images/search.png</file>
+        <file alias="telegram">images/telegram.png</file>
+        <file alias="visits">images/visits.png</file>
+        <file alias="remove_visit">images/remove_visit.png</file>
+        <file alias="append_doctor">images/append_doctor.png</file>
+        <file alias="clear_doctors">images/clear_doctors.png</file>
+        <file alias="edit_doctor">images/edit_doctor.png</file>
+        <file alias="remove_doctor">images/remove_doctor.png</file>
+        <file alias="doctors">images/doctors.png</file>
+        <file alias="clock">images/clock.png</file>
+        <file alias="clock_na">images/clock_na.png</file>
+        <file alias="append_appt">images/append_appt.png</file>
+        <file alias="appts">images/appts.png</file>
+        <file alias="edit_appt">images/edit_appt.png</file>
+        <file alias="remove_appt">images/remove_appt.png</file>
+        <file alias="cut">images/cut.png</file>
+        <file alias="paste">images/paste.png</file>
+        <file alias="append">images/append.png</file>
+        <file alias="edit">images/edit.png</file>
+        <file alias="remove">images/remove.png</file>
+        <file alias="copy">images/copy.png</file>
+        <file alias="finish_appt">images/finish_appt.png</file>
+        <file alias="start_appt">images/start_appt.png</file>
+        <file alias="archive">images/archive.png</file>
+        <file alias="settings">images/settings.png</file>
+    </qresource>
+</RCC>

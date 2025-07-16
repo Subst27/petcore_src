@@ -1,0 +1,44 @@
+# Builds
+/Qt_win_x64
+/Qt_win_x86
+/Qt_win_673
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# QtCreator project user profile
+*.pro.user
+
+# Temporary files
+*.TMP
+*.tmp
+
+# cmake пока отключу
+CMakeLists.txt

@@ -1,0 +1,44 @@
+name: QtLoader Push Build for macOS with Qt6
+
+on: 
+  workflow_dispatch:
+  release:
+    types: [prereleased]
+
+jobs:
+# =================================================================================== MACOS
+  macOS:
+    name: Push build for macOS ARM
+    runs-on: macos-13
+    defaults:
+      run:
+        working-directory: ./scripts
+    steps:
+      - name: Checking out sources
+        uses: actions/checkout@master
+      - name: Restoring submodules
+        run: git submodule update --force --recursive --init --remote
+# --------------------------------------------------------
+      - name: Install Qt
+        uses: jurplel/install-qt-action@v3
+        with:
+          version: '6.7.3'
+# --------------------------------------------------------
+      - name: Install Packages 
+        run: |
+          brew update
+          brew install openssl@1.1
+# --------------------------------------------------------
+      - name: Build QtLoader with dependencies
+        run: |
+          chmod +x ./build_macos_qt6.sh
+          ./build_macos_qt6.sh
+      - name: Upload QtLoader binaries to release
+#        if: github.event_name == 'release'
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: install/QtLoader.dmg
+          asset_name: Qt_Loader-x86_64-arm.dmg
+          tag: ${{ github.ref }}
+          overwrite: true 
