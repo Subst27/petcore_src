@@ -1,0 +1,47 @@
+name: PetCore Push Build for Linux
+
+on: 
+  workflow_dispatch:
+  release:
+    types: [prereleased]
+
+jobs:
+# =================================================================================== LINUX
+  Linux:
+    name: Push build for Linux
+    runs-on: ubuntu-22.04
+    defaults:
+      run:
+        working-directory: ./scripts
+    steps:
+      - name: Checking out sources
+        uses: actions/checkout@master
+      - name: Restoring submodules
+        run: git submodule update --force --recursive --init --remote
+# --------------------------------------------------------
+      - name: Install Qt
+        uses: jurplel/install-qt-action@v4
+        with:
+          version: '5.15.2'
+# --------------------------------------------------------
+      - name: Install Packages 
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libgl-dev libssl-dev libx11-dev libxkbcommon-x11-dev #libfuse2 squashfs-tools patchelf libc6-dev
+# --------------------------------------------------------
+      - name: Build PetCore with dependencies
+        id: create_appimage
+        run: |
+          chmod +x ./build_linux.sh
+          ./build_linux.sh
+          version=$(cat ../petcore_version)            # read version from file
+          echo "VERSION=$version" >> $GITHUB_OUTPUT    # write version to environment variable
+      - name: Upload PetCore binaries to release
+        id: upload_appimage
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: install/PetCore-${{ steps.create_appimage.outputs.VERSION }}-x86_64.AppImage
+#          asset_name: PetCore-${{ steps.create_appimage.outputs.VERSION }}-x86_64.AppImage
+          tag: ${{ github.ref }}
+          overwrite: true 

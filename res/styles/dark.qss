@@ -1,0 +1,200 @@
+/* TMainWnd */
+QMainWindow#TMainWnd QPushButton#exportCsvBtn {
+  qproperty-icon: url(":/theme_icons/images/dark/export_csv");
+  }
+
+QMainWindow#TMainWnd QPushButton#exportXmlBtn {
+  qproperty-icon: url(":/theme_icons/images/dark/export_xml");
+  }
+
+QMainWindow#TMainWnd QPushButton#findDataBtn {
+  qproperty-icon: url(":/theme_icons/images/dark/search");
+  }
+
+QMainWindow#TMainWnd QPushButton#clearDialogBtn {
+  qproperty-icon: url(":/theme_icons/images/dark/dialog_clear");
+  }
+
+QMainWindow#TMainWnd QPushButton#saveDialogBtn {
+  qproperty-icon: url(":/theme_icons/images/dark/dialog_save");
+  }
+
+QMainWindow#TMainWnd QPushButton#findTextBtn {
+  qproperty-icon: url(":/theme_icons/images/dark/search");
+  }
+
+QMainWindow#TMainWnd QPushButton#askBtn {
+  qproperty-icon: url(":/theme_icons/images/dark/question");
+  }
+
+
+/* Все QActions в TMainWnd */
+/* Как можно все же через стили для кнопок QAction выставить иконки?
+QMainWindow#TMainWnd QAction#appendDataActn {
+  qproperty-icon: url(":/theme_icons/images/dark/append");
+  }
+
+QMainWindow#TMainWnd QAction#editDataActn {
+  qproperty-icon: url(":/theme_icons/images/dark/edit");
+  }
+
+QMainWindow#TMainWnd QAction#removeDataActn {
+  qproperty-icon: url(":/theme_icons/images/dark/remove");
+  }
+
+QMainWindow#TMainWnd QAction#aboutQtActn {
+  qproperty-icon: url(":/theme_icons/images/dark/qt");
+  }
+
+QMainWindow#TMainWnd QAction#aboutActn {
+  qproperty-icon: url(":/theme_icons/images/dark/about");
+  }
+
+QMainWindow#TMainWnd QAction#exitActn {
+  qproperty-icon: url(":/theme_icons/images/dark/exit");
+  }
+
+QMainWindow#TMainWnd QAction#telegramActn {
+  qproperty-icon: url(":/theme_icons/images/dark/telegram");
+  }
+
+QMainWindow#TMainWnd QAction#appendRemActn {
+  qproperty-icon: url(":/theme_icons/images/dark/reminder_append");
+  }
+
+QMainWindow#TMainWnd QAction#removeRemActn {
+  qproperty-icon: url(":/theme_icons/images/dark/reminder_remove");
+  }
+
+QMainWindow#TMainWnd QAction#makeApptActn {
+  qproperty-icon: url(":/theme_icons/images/dark/appt_append");
+  }
+
+QMainWindow#TMainWnd QAction#appendApptActn {
+  qproperty-icon: url(":/theme_icons/images/dark/appt_append");
+  }
+
+QMainWindow#TMainWnd QAction#editApptActn {
+  qproperty-icon: url(":/theme_icons/images/dark/appt_edit");
+  }
+
+QMainWindow#TMainWnd QAction#removeApptActn {
+  qproperty-icon: url(":/theme_icons/images/dark/appt_remove");
+  }
+
+QMainWindow#TMainWnd QAction#cutApptActn {
+  qproperty-icon: url(":/theme_icons/images/dark/appt_cut");
+  }
+
+QMainWindow#TMainWnd QAction#pasteApptActn {
+  qproperty-icon: url(":/theme_icons/images/dark/appt_paste");
+  }
+
+QMainWindow#TMainWnd QAction#startApptActn {
+  qproperty-icon: url(":/theme_icons/images/dark/appt_start");
+  }
+
+QMainWindow#TMainWnd QAction#finishApptActn {
+  qproperty-icon: url(":/theme_icons/images/dark/appt_finish");
+  }
+
+QMainWindow#TMainWnd QAction#settingsActn {
+  qproperty-icon: url(":/theme_icons/images/dark/settings");
+  }
+
+QMainWindow#TMainWnd QAction#archiveActn {
+  qproperty-icon: url(":/theme_icons/images/dark/archive");
+  }
+
+QMainWindow#TMainWnd QAction#appendTaskActn {
+  qproperty-icon: url(":/theme_icons/images/dark/task_append");
+  }
+
+QMainWindow#TMainWnd QAction#editTaskActn {
+  qproperty-icon: url(":/theme_icons/images/dark/task_edit");
+  }
+
+QMainWindow#TMainWnd QAction#removeTaskActn {
+  qproperty-icon: url(":/theme_icons/images/dark/task_remove");
+  }
+
+QMainWindow#TMainWnd QAction#completeTaskActn {
+  qproperty-icon: url(":/theme_icons/images/dark/task_complete");
+  }
+*/
+
+
+/* Ok и Cancel во всех диалогах */
+QDialog QPushButton#okBtn {
+  qproperty-icon: url(":/theme_icons/images/dark/ok");
+  }
+
+QDialog QPushButton#cancelBtn {
+  qproperty-icon: url(":/theme_icons/images/dark/cancel");
+  }
+
+
+/* TAppDlg */
+QDialog#TApptDlg QPushButton#appendDoctorBtn {
+  qproperty-icon: url(":/theme_icons/images/dark/append");
+  }
+
+QDialog#TApptDlg QPushButton#editDoctorBtn {
+  qproperty-icon: url(":/theme_icons/images/dark/edit");
+  }
+
+QDialog#TApptDlg QPushButton#routineBtn {
+  qproperty-icon: url(":/theme_icons/images/dark/cancel");
+  }
+
+QDialog#TApptDlg QPushButton#appendClientBtn {
+  qproperty-icon: url(":/theme_icons/images/dark/append");
+  }
+
+QDialog#TApptDlg QPushButton#editClientBtn {
+  qproperty-icon: url(":/theme_icons/images/dark/edit");
+  }
+
+QDialog#TApptDlg QPushButton#appendPetBtn {
+  qproperty-icon: url(":/theme_icons/images/dark/append");
+  }
+
+QDialog#TApptDlg QPushButton#editPetBtn {
+  qproperty-icon: url(":/theme_icons/images/dark/edit");
+  }
+
+
+/* TDoctorDlg */
+QDialog#TDoctorDlg QPushButton#copyRoutineBtn {
+  qproperty-icon: url(":/theme_icons/images/dark/copy");
+  }
+
+QDialog#TDoctorDlg QPushButton#prefferedBtn {
+  qproperty-icon: url(":/theme_icons/images/dark/edit");
+  }
+
+
+/* TLoginDlg */
+QDialog#TLoginDlg QPushButton#echoModeBtn {
+  qproperty-icon: url(":/theme_icons/images/dark/eye_on");
+  }
+
+
+/* TPetDlg */
+QDialog#TPetDlg QPushButton#appendClientBtn {
+  qproperty-icon: url(":/theme_icons/images/dark/append");
+  }
+
+QDialog#TPetDlg QPushButton#editClientBtn {
+  qproperty-icon: url(":/theme_icons/images/dark/edit");
+  }
+
+QDialog#TPetDlg QPushButton#generateBtn {
+  qproperty-icon: url(":/theme_icons/images/dark/ok");
+  }
+
+
+/* TSettingsDlg */
+QDialog#TSettingsDlg QPushButton#fontBtn {
+  qproperty-icon: url(":/theme_icons/images/dark/font");
+  }

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=PetCore
+Comment=Software for veterinary clinics
+TryExec=PetCore
+Exec=PetCore
+Icon=petcore
+Categories=

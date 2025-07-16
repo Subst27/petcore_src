@@ -1,0 +1,59 @@
+<RCC>
+    <qresource prefix="/templates">
+        <file>templates/petcore.sqt</file>
+        <file>templates/petcore.xml</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file alias="cancel">images/cancel.png</file>
+        <file alias="clear_dialog">images/clear_dialog.png</file>
+        <file alias="clients">images/clients.png</file>
+        <file alias="exit">images/exit.png</file>
+        <file alias="export_csv">images/export_csv.png</file>
+        <file alias="export_xml">images/export_xml.png</file>
+        <file alias="eye_off">images/eye_off.png</file>
+        <file alias="eye_on">images/eye_on.png</file>
+        <file alias="font">images/font.png</file>
+        <file alias="llm_vet">images/llm_vet.png</file>
+        <file alias="ok">images/ok.png</file>
+        <file alias="petcore">images/petcore.png</file>
+        <file alias="pets">images/pets.png</file>
+        <file alias="qt">images/qt.png</file>
+        <file alias="question">images/question.png</file>
+        <file alias="save_dialog">images/save_dialog.png</file>
+        <file alias="search">images/search.png</file>
+        <file alias="telegram">images/telegram.png</file>
+        <file alias="doctors">images/doctors.png</file>
+        <file alias="clock">images/clock.png</file>
+        <file alias="clock_na">images/clock_na.png</file>
+        <file alias="appts">images/appts.png</file>
+        <file alias="cut">images/cut.png</file>
+        <file alias="paste">images/paste.png</file>
+        <file alias="copy">images/copy.png</file>
+        <file alias="archive">images/archive.png</file>
+        <file alias="settings">images/settings.png</file>
+        <file alias="splash">images/splash.png</file>
+        <file alias="logo">images/logo.png</file>
+        <file alias="logo_no_text">images/logo_no_text.png</file>
+        <file alias="appt_append">images/appt_append.png</file>
+        <file alias="appt_edit">images/appt_edit.png</file>
+        <file alias="appt_remove">images/appt_remove.png</file>
+        <file alias="client_append">images/client_append.png</file>
+        <file alias="client_edit">images/client_edit.png</file>
+        <file alias="client_remove">images/client_remove.png</file>
+        <file alias="doctor_append">images/doctor_append.png</file>
+        <file alias="doctor_edit">images/doctor_edit.png</file>
+        <file alias="doctor_remove">images/doctor_remove.png</file>
+        <file alias="pet_append">images/pet_append.png</file>
+        <file alias="pet_edit">images/pet_edit.png</file>
+        <file alias="pet_remove">images/pet_remove.png</file>
+        <file alias="reminder_append">images/reminder_append.png</file>
+        <file alias="reminder_remove">images/reminder_remove.png</file>
+        <file alias="task_append">images/task_append.png</file>
+        <file alias="task_complete">images/task_complete.png</file>
+        <file alias="task_edit">images/task_edit.png</file>
+        <file alias="task_remove">images/task_remove.png</file>
+        <file alias="tasks">images/tasks.png</file>
+        <file alias="appt_finish">images/appt_finish.png</file>
+        <file alias="appt_start">images/appt_start.png</file>
+    </qresource>
+</RCC>

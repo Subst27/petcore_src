@@ -1,0 +1,182 @@
+<RCC>
+    <qresource prefix="/templates">
+        <file>templates/petcore.sqt</file>
+        <file>templates/petcore.xml</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file alias="cancel">images/cancel.png</file>
+        <file alias="clients">images/clients.png</file>
+        <file alias="exit">images/exit.png</file>
+        <file alias="export_csv">images/export_csv.png</file>
+        <file alias="export_xml">images/export_xml.png</file>
+        <file alias="eye_off">images/eye_off.png</file>
+        <file alias="eye_on">images/eye_on.png</file>
+        <file alias="font">images/font.png</file>
+        <file alias="llm_vet">images/llm_vet.png</file>
+        <file alias="ok">images/ok.png</file>
+        <file alias="petcore">images/petcore.png</file>
+        <file alias="pets">images/pets.png</file>
+        <file alias="qt">images/qt.png</file>
+        <file alias="question">images/question.png</file>
+        <file alias="search">images/search.png</file>
+        <file alias="telegram">images/telegram.png</file>
+        <file alias="doctors">images/doctors.png</file>
+        <file alias="clock">images/clock.png</file>
+        <file alias="clock_na">images/clock_na.png</file>
+        <file alias="appts">images/appts.png</file>
+        <file alias="cut">images/cut.png</file>
+        <file alias="paste">images/paste.png</file>
+        <file alias="copy">images/copy.png</file>
+        <file alias="archive">images/archive.png</file>
+        <file alias="settings">images/settings.png</file>
+        <file alias="splash">images/splash.png</file>
+        <file alias="logo">images/logo.png</file>
+        <file alias="logo_no_text">images/logo_no_text.png</file>
+        <file alias="appt_append">images/appt_append.png</file>
+        <file alias="appt_edit">images/appt_edit.png</file>
+        <file alias="appt_remove">images/appt_remove.png</file>
+        <file alias="client_append">images/client_append.png</file>
+        <file alias="client_edit">images/client_edit.png</file>
+        <file alias="client_remove">images/client_remove.png</file>
+        <file alias="doctor_append">images/doctor_append.png</file>
+        <file alias="doctor_edit">images/doctor_edit.png</file>
+        <file alias="doctor_remove">images/doctor_remove.png</file>
+        <file alias="pet_append">images/pet_append.png</file>
+        <file alias="pet_edit">images/pet_edit.png</file>
+        <file alias="pet_remove">images/pet_remove.png</file>
+        <file alias="reminder_append">images/reminder_append.png</file>
+        <file alias="reminder_remove">images/reminder_remove.png</file>
+        <file alias="task_append">images/task_append.png</file>
+        <file alias="task_complete">images/task_complete.png</file>
+        <file alias="task_edit">images/task_edit.png</file>
+        <file alias="task_remove">images/task_remove.png</file>
+        <file alias="tasks">images/tasks.png</file>
+        <file alias="appt_finish">images/appt_finish.png</file>
+        <file alias="appt_start">images/appt_start.png</file>
+        <file alias="design">images/design.png</file>
+        <file alias="preview">images/preview.png</file>
+        <file alias="print">images/print.png</file>
+        <file alias="print_pdf">images/print_pdf.png</file>
+        <file alias="append">images/append.png</file>
+        <file alias="edit">images/edit.png</file>
+        <file alias="remove">images/remove.png</file>
+        <file alias="dialog_clear">images/dialog_clear.png</file>
+        <file alias="dialog_save">images/dialog_save.png</file>
+    </qresource>
+    <qresource prefix="/styles">
+        <file alias="dark.qss">styles/dark.qss</file>
+        <file alias="light.qss">styles/light.qss</file>
+    </qresource>
+    <qresource prefix="/theme_icons">
+        <file>images/light/append.png</file>
+        <file>images/light/appt_append.png</file>
+        <file>images/light/appt_edit.png</file>
+        <file>images/light/appt_finish.png</file>
+        <file>images/light/appt_remove.png</file>
+        <file>images/light/appt_start.png</file>
+        <file>images/light/appts.png</file>
+        <file>images/light/archive.png</file>
+        <file>images/light/cancel.png</file>
+        <file>images/light/client_append.png</file>
+        <file>images/light/client_edit.png</file>
+        <file>images/light/client_remove.png</file>
+        <file>images/light/clients.png</file>
+        <file>images/light/clock.png</file>
+        <file>images/light/clock_na.png</file>
+        <file>images/light/copy.png</file>
+        <file>images/light/cut.png</file>
+        <file>images/light/design.png</file>
+        <file>images/light/dialog_clear.png</file>
+        <file>images/light/dialog_save.png</file>
+        <file>images/light/doctor_append.png</file>
+        <file>images/light/doctor_edit.png</file>
+        <file>images/light/doctor_remove.png</file>
+        <file>images/light/doctors.png</file>
+        <file>images/light/edit.png</file>
+        <file>images/light/exit.png</file>
+        <file>images/light/export_csv.png</file>
+        <file>images/light/export_xml.png</file>
+        <file>images/light/eye_off.png</file>
+        <file>images/light/eye_on.png</file>
+        <file>images/light/font.png</file>
+        <file>images/light/llm_vet.png</file>
+        <file>images/light/ok.png</file>
+        <file>images/light/paste.png</file>
+        <file>images/light/pet_append.png</file>
+        <file>images/light/pet_edit.png</file>
+        <file>images/light/pet_remove.png</file>
+        <file>images/light/petcore.png</file>
+        <file>images/light/pets.png</file>
+        <file>images/light/preview.png</file>
+        <file>images/light/print.png</file>
+        <file>images/light/print_pdf.png</file>
+        <file>images/light/qt.png</file>
+        <file>images/light/question.png</file>
+        <file>images/light/reminder_append.png</file>
+        <file>images/light/reminder_remove.png</file>
+        <file>images/light/remove.png</file>
+        <file>images/light/search.png</file>
+        <file>images/light/settings.png</file>
+        <file>images/light/task_append.png</file>
+        <file>images/light/task_complete.png</file>
+        <file>images/light/task_edit.png</file>
+        <file>images/light/task_remove.png</file>
+        <file>images/light/tasks.png</file>
+        <file>images/light/telegram.png</file>
+        <file>images/dark/append.png</file>
+        <file>images/dark/appt_append.png</file>
+        <file>images/dark/appt_edit.png</file>
+        <file>images/dark/appt_finish.png</file>
+        <file>images/dark/appt_remove.png</file>
+        <file>images/dark/appt_start.png</file>
+        <file>images/dark/appts.png</file>
+        <file>images/dark/archive.png</file>
+        <file>images/dark/cancel.png</file>
+        <file>images/dark/client_append.png</file>
+        <file>images/dark/client_edit.png</file>
+        <file>images/dark/client_remove.png</file>
+        <file>images/dark/clients.png</file>
+        <file>images/dark/clock.png</file>
+        <file>images/dark/clock_na.png</file>
+        <file>images/dark/copy.png</file>
+        <file>images/dark/cut.png</file>
+        <file>images/dark/design.png</file>
+        <file>images/dark/dialog_clear.png</file>
+        <file>images/dark/dialog_save.png</file>
+        <file>images/dark/doctor_append.png</file>
+        <file>images/dark/doctor_edit.png</file>
+        <file>images/dark/doctor_remove.png</file>
+        <file>images/dark/doctors.png</file>
+        <file>images/dark/edit.png</file>
+        <file>images/dark/exit.png</file>
+        <file>images/dark/export_csv.png</file>
+        <file>images/dark/export_xml.png</file>
+        <file>images/dark/eye_off.png</file>
+        <file>images/dark/eye_on.png</file>
+        <file>images/dark/font.png</file>
+        <file>images/dark/llm_vet.png</file>
+        <file>images/dark/ok.png</file>
+        <file>images/dark/paste.png</file>
+        <file>images/dark/pet_append.png</file>
+        <file>images/dark/pet_edit.png</file>
+        <file>images/dark/pet_remove.png</file>
+        <file>images/dark/petcore.png</file>
+        <file>images/dark/pets.png</file>
+        <file>images/dark/preview.png</file>
+        <file>images/dark/print.png</file>
+        <file>images/dark/print_pdf.png</file>
+        <file>images/dark/qt.png</file>
+        <file>images/dark/question.png</file>
+        <file>images/dark/reminder_append.png</file>
+        <file>images/dark/reminder_remove.png</file>
+        <file>images/dark/remove.png</file>
+        <file>images/dark/search.png</file>
+        <file>images/dark/settings.png</file>
+        <file>images/dark/task_append.png</file>
+        <file>images/dark/task_complete.png</file>
+        <file>images/dark/task_edit.png</file>
+        <file>images/dark/task_remove.png</file>
+        <file>images/dark/tasks.png</file>
+        <file>images/dark/telegram.png</file>
+    </qresource>
+</RCC>
